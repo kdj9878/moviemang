@@ -5,14 +5,14 @@
 | jdk         | 1.8     |     |
 | spring boot | 2.6.6   |     |
 
-##서비스별 포트 
+## 서비스별 포트 
 | 서비스         | port | 비고  |
 |-------------|---------|-----|
 | main-api-server   | 9091 |     |
 | member-api-server | 9092 |     |
 | playlist-api-server | 9093 |     |
 
-##프로젝트 구조
+## 프로젝트 구조
 ```
 moviemang
 ├── HELP.md

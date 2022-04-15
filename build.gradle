@@ -90,3 +90,16 @@ project(':apis:main-api-server'){
         compileOnly project(':core:datastore')
     }
 }
+
+project(':apis:playlist-api-server'){
+    dependencies {
+        compileOnly project(':core:core-utils')
+        compileOnly project(':core:datastore')
+    }
+}
+
+project(':core:datastore'){
+    dependencies {
+        compileOnly project(':core:core-utils')
+    }
+}
